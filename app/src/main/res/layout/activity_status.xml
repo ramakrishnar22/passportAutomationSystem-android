@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rams.passportautomationsystem.StatusActivity">
+
+    <EditText
+        android:id="@+id/chkname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/chker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/chkname"
+        android:layout_below="@+id/chkname"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="47dp"
+        android:text="Check Status" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/chker"
+        android:layout_marginTop="79dp"
+        android:text="Enter Applicant Name" />
+
+    <Button
+        android:id="@+id/addpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:text="Add New Passport" />
+</RelativeLayout>
